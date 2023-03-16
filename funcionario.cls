@@ -1,5 +1,5 @@
 public class funcionario {
-	public String nome;
+    public String nome;
     public String rg;
     public String cpf;
     public string celular;

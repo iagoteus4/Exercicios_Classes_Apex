@@ -26,7 +26,7 @@ public class veiculo {
         this.valorVenda -= (Date.today().year() - anoFabricacao) * 200;
     }
     
-    public void realizar_venda(String comprador,Boolean disponivel){
+    public void atualizar_propietario(String comprador,Boolean disponivel){
         this.disponivel = disponivel;
         this.donoAntigo = this.donoAtual;
         this.donoAtual = comprador;

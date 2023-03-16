@@ -1,9 +1,9 @@
 public class veiculo {
     public String categoria;
     public String marca;
-	public String modelo;
+    public String modelo;
     public Integer anoFabricacao;
-	public String donoAtual;
+    public String donoAtual;
     public String donoAntigo;
     public Decimal valorCompra;
     public Decimal valorVenda;
